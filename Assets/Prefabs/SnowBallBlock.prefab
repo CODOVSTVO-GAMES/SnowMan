@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7092760939604777094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5347744033517337669}
+  m_Layer: 0
+  m_Name: SnowBallBlock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5347744033517337669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092760939604777094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 797789635402897944}
+  - {fileID: 9215919098018025646}
+  - {fileID: 1713069755954062720}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2819637674730749878
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5347744033517337669}
+    m_Modifications:
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717623873507010709, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_Name
+      value: SnowBallRaw
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+--- !u!4 &797789635402897944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+  m_PrefabInstance: {fileID: 2819637674730749878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4320367290292142126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5347744033517337669}
+    m_Modifications:
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717623873507010709, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_Name
+      value: SnowBallRaw (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+--- !u!4 &1713069755954062720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+  m_PrefabInstance: {fileID: 4320367290292142126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6041167010976871680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5347744033517337669}
+    m_Modifications:
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717623873507010709, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+      propertyPath: m_Name
+      value: SnowBallRaw (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+--- !u!4 &9215919098018025646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3184903607385318830, guid: ccc1c67bdb8c6764ea706009f2cdcf20, type: 3}
+  m_PrefabInstance: {fileID: 6041167010976871680}
+  m_PrefabAsset: {fileID: 0}

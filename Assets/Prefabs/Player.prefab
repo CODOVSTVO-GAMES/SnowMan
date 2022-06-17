@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5303552881657906464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7300410733973107833}
+  - component: {fileID: 4170362539905358267}
+  m_Layer: 0
+  m_Name: Example
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7300410733973107833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303552881657906464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9213122435991809376}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4170362539905358267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303552881657906464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e44d482b4b72914c8db1c7a99266765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &9213122435991809378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9213122435991809376}
+  - component: {fileID: 9213122435991809379}
+  - component: {fileID: 9213122435991809377}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9213122435991809376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9213122435991809378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9213122435998096770}
+  - {fileID: 7300410733973107833}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9213122435991809379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9213122435991809378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3931ec4f5d4705f45972ac7e9c46a5c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 0
+  MovingForwardB: 0
+  MovingToTheSidesB: 0
+  DontStart: 0
+  ComplexityLvl: 0
+--- !u!114 &9213122435991809377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9213122435991809378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3763c149a44b84aa6ad6b21b92b33c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SnowBallPrefab:
+  - {fileID: 7062160380706885152, guid: 08a3650fab918b841b13f70932eeb6ca, type: 3}
+  - {fileID: 3937436794390261042, guid: ef9054f6c49227043a3891b987a06f6e, type: 3}
+  - {fileID: 4779129893291102640, guid: 64d0d3690fa38c64ab760fa37990d15e, type: 3}
+  - {fileID: 2976562467667448515, guid: 0e9e3b0ecfc36194fb8bb0b596a9a5d7, type: 3}
+  - {fileID: 7170415541384966661, guid: 55e24298625159d4b8221894c033941d, type: 3}
+  - {fileID: 5628669473659075181, guid: b0dd2f5fb9b1f7f4599ac013c2201780, type: 3}
+  - {fileID: 2031117823994591487, guid: a323e2f65ab7d1644ac8dc94157c416f, type: 3}
+  - {fileID: 1836149139891173394, guid: 6e2286a9c8de00a4f96aa1fb1d5656ce, type: 3}
+  - {fileID: 4206559728454450077, guid: 27acb5fa48b37e141a9448c65d9daa14, type: 3}
+  SnowTorPrefab: {fileID: 4232018479950837394, guid: 453c7b7b521aa6048a353d5f7b8484b4, type: 3}
+  SnowManText: {fileID: 8173874737729451629, guid: 1f4144f7716cfa4409947ef6eb015903, type: 3}
+  a: 0
+  LegMove: 0
+  TorCount: 0
+  example: {fileID: 4170362539905358267}
+--- !u!1 &9213122435998096781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9213122435998096770}
+  m_Layer: 0
+  m_Name: Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9213122435998096770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9213122435998096781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9213122435991809376}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
